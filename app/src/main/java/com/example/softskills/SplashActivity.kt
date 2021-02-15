@@ -30,9 +30,12 @@ class SplashActivity : AppCompatActivity() {
                     startActivity(intent)
                 }, 5000)
             }
-            is AppState.Default -> Toast.makeText(this,"AppState is Default", Toast.LENGTH_SHORT).show()
-            is AppState.Success -> Toast.makeText(this,"AppState is Success", Toast.LENGTH_SHORT).show()
-            is AppState.Error -> Toast.makeText(this,"AppState is Error", Toast.LENGTH_SHORT).show()
+            is AppState.Default -> Toast.makeText(this, "AppState is Default", Toast.LENGTH_SHORT)
+                .show()
+            is AppState.Success -> Toast.makeText(this, "AppState is Success", Toast.LENGTH_SHORT)
+                .show()
+            is AppState.Error -> Toast.makeText(this, "AppState is Error", Toast.LENGTH_SHORT)
+                .show()
         }
     }
 }

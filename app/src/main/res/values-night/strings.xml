@@ -5,4 +5,6 @@
     <string name="menu_title_chat">Чат</string>
     <string name="menu_item_tracking">Трекинг</string>
     <string name="menu_item_psychologist">Психолог</string>
+    <string name="career_test_btn_title">Тестирование на профориентацию</string>
+    <string name="soft_skills_btn_title">Тестирование на Soft-skills</string>
 </resources>
