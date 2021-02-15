@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_main"
+        android:icon="@android:drawable/arrow_up_float"
+        android:title="@string/menu_title_main" />
+    <item
+        android:id="@+id/item_personal"
+        android:icon="@android:drawable/arrow_up_float"
+        android:title="@string/menu_title_personal" />
+    <item
+        android:id="@+id/item_chat"
+        android:icon="@android:drawable/arrow_up_float"
+        android:title="@string/menu_title_chat" />
+    <item
+        android:id="@+id/item_tracking"
+        android:icon="@android:drawable/arrow_up_float"
+        android:title="@string/menu_item_tracking" />
+    <item
+        android:id="@+id/item_psychologist"
+        android:icon="@android:drawable/arrow_up_float"
+        android:title="@string/menu_item_psychologist" />
+
+</menu>
