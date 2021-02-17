@@ -7,4 +7,14 @@
     <string name="menu_item_psychologist">Психолог</string>
     <string name="career_test_btn_title">Тестирование на профориентацию</string>
     <string name="soft_skills_btn_title">Тестирование на Soft-skills</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="join_y_the_best">Присоединиться к YTheBest</string>
+    <string name="enter">Войти</string>
+    <string name="lk">Личный кабинет</string>
+    <string name="email">Адрес электронной почты</string>
+    <string name="password">Пароль</string>
+    <string name="name">Имя</string>
+    <string name="re_password">Повторите пароль</string>
+    <string name="create_account">Создать аккаунт</string>
 </resources>
