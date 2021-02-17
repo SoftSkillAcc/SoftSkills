@@ -6,13 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/main_bottom_nav_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+    <Button
+        android:id="@+id/career_test_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_activity_btn_size"
+        android:text="@string/career_test_btn_title"
+        app:layout_constraintBottom_toTopOf="@+id/soft_skills_test_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/soft_skills_test_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_activity_btn_size"
+        android:layout_marginTop="187dp"
+        android:text="@string/soft_skills_btn_title"
+        app:layout_constraintBottom_toTopOf="@+id/main_bottom_nav_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/career_test_btn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
