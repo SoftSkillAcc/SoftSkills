@@ -17,4 +17,8 @@
     <string name="name">Имя</string>
     <string name="re_password">Повторите пароль</string>
     <string name="create_account">Создать аккаунт</string>
+    <string name="chat">Чат</string>
+    <string name="personal">ЛК</string>
+    <string name="psychologist">Психолог</string>
+    <string name="tracking">Трекинг</string>
 </resources>
