@@ -21,11 +21,13 @@ class EntryActivity : AppCompatActivity(), EntryFragment.Companion.Listener,
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_entry)
 
-        val entryFragment = EntryFragment()
-        val ft = supportFragmentManager.beginTransaction()
-        ft.replace(R.id.fragment_container, entryFragment)
-        ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
-        ft.commit()
+        if (savedInstanceState == null) {
+            val entryFragment = EntryFragment()
+            val ft = supportFragmentManager.beginTransaction()
+            ft.replace(R.id.fragment_container, entryFragment)
+            ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
+            ft.commit()
+        }
     }
 
     private fun transactToFragment(fragment: Fragment) {
