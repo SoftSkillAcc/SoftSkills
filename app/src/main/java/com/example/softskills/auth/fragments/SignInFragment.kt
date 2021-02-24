@@ -1,4 +1,4 @@
-package com.example.softskills.auth
+package com.example.softskills.auth.fragments
 
 import android.content.Context
 import android.os.Bundle
@@ -28,9 +28,9 @@ class SignInFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_sign_in, container, false)
-        view.findViewById<MaterialButton>(R.id.enter_btn)
+        val root = inflater.inflate(R.layout.fragment_sign_in, container, false)
+        root.findViewById<MaterialButton>(R.id.enter_btn)
             .setOnClickListener { listener.enterAccount() }
-        return view
+        return root
     }
 }
