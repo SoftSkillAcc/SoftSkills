@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".auth.fragments.SignInFragment">
+    tools:context=".ui.fragment.auth.SignInFragment">
 
 
     <com.google.android.material.textfield.TextInputLayout

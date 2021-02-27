@@ -6,27 +6,27 @@
     app:startDestination="@id/main">
     <fragment
         android:id="@+id/main"
-        android:name="com.example.softskills.MainFragment"
+        android:name="com.example.softskills.ui.fragment.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" />
     <fragment
         android:id="@+id/personal"
-        android:name="com.example.softskills.PersonalFragment"
+        android:name="com.example.softskills.ui.fragment.PersonalFragment"
         android:label="fragment_personal"
         tools:layout="@layout/fragment_personal" />
     <fragment
         android:id="@+id/chat"
-        android:name="com.example.softskills.ChatFragment"
+        android:name="com.example.softskills.ui.fragment.ChatFragment"
         android:label="fragment_chat"
         tools:layout="@layout/fragment_chat" />
     <fragment
         android:id="@+id/tracking"
-        android:name="com.example.softskills.TrackingFragment"
+        android:name="com.example.softskills.ui.fragment.TrackingFragment"
         android:label="fragment_tracking"
         tools:layout="@layout/fragment_tracking" />
     <fragment
         android:id="@+id/psychologist"
-        android:name="com.example.softskills.PsychologistFragment"
+        android:name="com.example.softskills.ui.fragment.PsychologistFragment"
         android:label="fragment_psychologist"
         tools:layout="@layout/fragment_psychologist" />
 </navigation>
