@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:fullBackupContent="false"
         android:name=".application.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,10 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SoftSkills">
-        <activity android:name=".ui.activity.EntryActivity">
-
-        </activity>
-
+        <activity android:name=".ui.activity.OnboardingActivity"></activity>
+        <activity android:name=".ui.activity.EntryActivity"></activity>
         <activity android:name=".ui.activity.MainActivity" />
         <activity
             android:name=".ui.activity.SplashActivity"
@@ -25,10 +24,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
-
     </application>
 
 </manifest>
