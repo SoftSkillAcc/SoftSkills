@@ -1,4 +1,4 @@
-package com.example.softskills.auth
+package com.example.softskills.utils
 
 import android.app.Activity
 import android.os.Bundle

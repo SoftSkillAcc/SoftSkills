@@ -1,4 +1,4 @@
-package com.example.softskills
+package com.example.softskills.ui.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,6 +8,9 @@ import android.os.Looper
 import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.example.softskills.R
+import com.example.softskills.viewmodel.SplashViewModel
+import com.example.softskills.model.data.AppState
 
 class SplashActivity : AppCompatActivity() {
     private val splashViewModel by lazy {

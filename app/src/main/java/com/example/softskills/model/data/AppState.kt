@@ -1,4 +1,4 @@
-package com.example.softskills
+package com.example.softskills.model.data
 
 sealed class AppState {
     data class Default(val data: String?): AppState()

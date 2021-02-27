@@ -1,4 +1,4 @@
-package com.example.softskills.auth.fragments
+package com.example.softskills.ui.fragment.auth
 
 import android.content.Context
 import android.os.Bundle
@@ -9,11 +9,11 @@ import android.view.ViewGroup
 import com.example.softskills.R
 import com.google.android.material.button.MaterialButton
 
-class SignInFragment : Fragment() {
+class SignUpFragment : Fragment() {
 
     companion object {
         interface Listener {
-            fun enterAccount()
+            fun createAccClicked()
         }
     }
 
@@ -28,9 +28,9 @@ class SignInFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root = inflater.inflate(R.layout.fragment_sign_in, container, false)
-        root.findViewById<MaterialButton>(R.id.enter_btn)
-            .setOnClickListener { listener.enterAccount() }
+        val root = inflater.inflate(R.layout.fragment_sign_up, container, false)
+        root.findViewById<MaterialButton>(R.id.create_acc_btn)
+            .setOnClickListener { listener.createAccClicked() }
         return root
     }
 }

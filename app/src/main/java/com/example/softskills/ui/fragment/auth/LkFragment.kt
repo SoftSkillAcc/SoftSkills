@@ -1,4 +1,4 @@
-package com.example.softskills.auth.fragments
+package com.example.softskills.ui.fragment.auth
 
 import android.os.Bundle
 import android.view.LayoutInflater
