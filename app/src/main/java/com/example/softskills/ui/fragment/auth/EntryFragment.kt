@@ -1,4 +1,4 @@
-package com.example.softskills.auth.fragments
+package com.example.softskills.ui.fragment.auth
 
 import android.content.Context
 import android.os.Bundle

@@ -1,13 +1,14 @@
-package com.example.softskills.auth
+package com.example.softskills.ui.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.softskills.R
-import com.example.softskills.auth.fragments.EntryFragment
-import com.example.softskills.auth.fragments.SignInFragment
-import com.example.softskills.auth.fragments.SignUpFragment
+import com.example.softskills.utils.Authenticator
+import com.example.softskills.ui.fragment.auth.EntryFragment
+import com.example.softskills.ui.fragment.auth.SignInFragment
+import com.example.softskills.ui.fragment.auth.SignUpFragment
 import kotlinx.android.synthetic.main.fragment_sign_in.*
 import kotlinx.android.synthetic.main.fragment_sign_up.*
 

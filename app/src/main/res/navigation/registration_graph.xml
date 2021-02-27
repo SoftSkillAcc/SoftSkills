@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/entryFragment"
-        android:name="com.example.softskills.auth.fragments.EntryFragment"
+        android:name="com.example.softskills.ui.fragment.auth.EntryFragment"
         android:label="EntryFragment"
         tools:layout="@layout/fragment_entry" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/signInFragment"
-        android:name="com.example.softskills.auth.fragments.SignInFragment"
+        android:name="com.example.softskills.ui.fragment.auth.SignInFragment"
         android:label="SignInFragment"
         tools:layout="@layout/fragment_sign_in" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/signUpFragment"
-        android:name="com.example.softskills.auth.fragments.SignUpFragment"
+        android:name="com.example.softskills.ui.fragment.auth.SignUpFragment"
         android:label="SignUpFragment"
         tools:layout="@layout/fragment_sign_up" >
         <action
@@ -37,7 +37,7 @@
     </fragment>
     <fragment
         android:id="@+id/lkFragment"
-        android:name="com.example.softskills.auth.fragments.LkFragment"
+        android:name="com.example.softskills.ui.fragment.auth.LkFragment"
         android:label="LkFragment"
         tools:layout="@layout/fragment_lk" />
 </navigation>
