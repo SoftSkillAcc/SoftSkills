@@ -6,16 +6,10 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.softskills.R
 import com.example.softskills.utils.Authenticator
-import com.example.softskills.ui.fragment.auth.EntryFragment
-import com.example.softskills.ui.fragment.auth.SignInFragment
-import com.example.softskills.ui.fragment.auth.SignUpFragment
 import kotlinx.android.synthetic.main.fragment_sign_in.*
 import kotlinx.android.synthetic.main.fragment_sign_up.*
 
-class EntryActivity : AppCompatActivity(),
-    EntryFragment.Companion.Listener,
-    SignUpFragment.Companion.Listener,
-    SignInFragment.Companion.Listener {
+class EntryActivity : AppCompatActivity() {
 
     private val authenticator by lazy { Authenticator(this, navController) }
 
@@ -29,27 +23,20 @@ class EntryActivity : AppCompatActivity(),
     }
 
 
-    override fun signUpClicked() {
-        navController.navigate(R.id.signUpFragment)
-    }
 
-    override fun signInClicked() {
-        navController.navigate(R.id.signInFragment)
-    }
-
-    override fun createAccClicked() {
-        authenticator.createAccount(
-            nameInputLayout,
-            emailInputLayout,
-            passwordInputLayout,
-            passwordReInputLayout
-        )
-    }
-
-    override fun enterAccount() {
-        authenticator.signIn(
-            emailInputLayout2,
-            passwordInputLayout2,
-        )
-    }
+//    override fun createAccClicked() {
+//        authenticator.createAccount(
+//            nameInputLayout,
+//            emailInputLayout,
+//            passwordInputLayout,
+//            passwordReInputLayout
+//        )
+//    }
+//
+//    override fun enterAccount() {
+//        authenticator.signIn(
+//            emailInputLayout2,
+//            passwordInputLayout2,
+//        )
+//    }
 }
