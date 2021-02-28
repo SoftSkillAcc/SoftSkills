@@ -21,9 +21,17 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/main_activity_btn_size"
         android:text="@string/soft_skills_btn_title"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/career_test_btn" />
+
+    <Button
+        android:id="@+id/registration_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_activity_btn_size"
+        android:text="@string/registration_btn_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soft_skills_test_btn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
