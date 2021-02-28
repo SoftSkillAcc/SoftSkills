@@ -28,9 +28,9 @@ class SplashActivity : AppCompatActivity() {
         when (appState) {
             is AppState.Loading -> {
                 Handler(Looper.getMainLooper()).postDelayed({
-                    splashViewModel.state.value = AppState.Success(null)
-                    val intent = Intent(this, MainActivity::class.java)
-                    startActivity(intent)
+                    splashViewModel.state.value = AppState.Default(null)
+//                    val intent = Intent(this, MainActivity::class.java)
+//                    startActivity(intent)
                 }, 5000)
             }
             is AppState.Default -> Toast.makeText(this, "AppState is Default", Toast.LENGTH_SHORT)
