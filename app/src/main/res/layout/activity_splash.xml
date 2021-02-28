@@ -17,12 +17,12 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.viewpager2.widget.ViewPager2
-            android:id="@+id/view_pager_loading"
+            android:id="@+id/view_pager_onboarding"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
         <com.google.android.material.tabs.TabLayout
-            android:id="@+id/tab_main"
+            android:id="@+id/tab_onboarding"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
