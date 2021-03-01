@@ -1,11 +1,12 @@
-package com.example.softskills.ui.fragment.auth
+package com.example.softskills.presentation.auth
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.Navigation
+import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
+import com.example.softskills.MainNavigationDirections
 import com.example.softskills.R
 import com.google.android.material.button.MaterialButton
 
@@ -22,8 +23,9 @@ class SignUpFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val createAccBtn = view.findViewById<MaterialButton>(R.id.create_acc_btn)
-        createAccBtn.setOnClickListener(
-            Navigation.createNavigateOnClickListener(R.id.action_global_lkFragment)
-        )
+        createAccBtn.setOnClickListener {
+            val action = MainNavigationDirections.actionGlobalLkFragment("UUUUUU")
+            findNavController().navigate(action)
+        }
     }
 }

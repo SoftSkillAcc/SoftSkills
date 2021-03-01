@@ -1,4 +1,4 @@
-package com.example.softskills.ui.activity
+package com.example.softskills.presentation.main
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -13,9 +13,8 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.viewpager2.widget.ViewPager2
 import com.example.softskills.R
-import com.example.softskills.viewmodel.SplashViewModel
-import com.example.softskills.model.data.AppState
-import com.example.softskills.ui.adapter.OnboardingAdapter
+import com.example.softskills.domain.model.data.AppState
+import com.example.softskills.presentation.auth.EntryActivity
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 

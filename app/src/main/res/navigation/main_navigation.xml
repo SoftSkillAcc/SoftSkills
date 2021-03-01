@@ -6,17 +6,21 @@
     app:startDestination="@id/main">
     <fragment
         android:id="@+id/signUpFragment"
-        android:name="com.example.softskills.ui.fragment.auth.SignUpFragment"
+        android:name="com.example.softskills.presentation.auth.SignUpFragment"
         android:label="SignUpFragment"
         tools:layout="@layout/fragment_sign_up"/>
     <fragment
         android:id="@+id/lkFragment"
-        android:name="com.example.softskills.ui.fragment.auth.LkFragment"
+        android:name="com.example.softskills.presentation.auth.LkFragment"
         android:label="LkFragment"
-        tools:layout="@layout/fragment_lk" />
+        tools:layout="@layout/fragment_lk" >
+        <argument
+            android:name="Email"
+            app:argType="string" />
+    </fragment>
     <fragment
         android:id="@+id/entryFragment"
-        android:name="com.example.softskills.ui.fragment.auth.EntryFragment"
+        android:name="com.example.softskills.presentation.auth.EntryFragment"
         android:label="EntryFragment"
         tools:layout="@layout/fragment_entry">
         <action
@@ -28,12 +32,12 @@
     </fragment>
     <fragment
         android:id="@+id/signInFragment"
-        android:name="com.example.softskills.ui.fragment.auth.SignInFragment"
+        android:name="com.example.softskills.presentation.auth.SignInFragment"
         android:label="SignInFragment"
         tools:layout="@layout/fragment_sign_in"/>
     <fragment
         android:id="@+id/main"
-        android:name="com.example.softskills.ui.fragment.MainFragment"
+        android:name="com.example.softskills.presentation.bottom_navigation.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -42,22 +46,22 @@
     </fragment>
     <fragment
         android:id="@+id/personal"
-        android:name="com.example.softskills.ui.fragment.PersonalFragment"
+        android:name="com.example.softskills.presentation.bottom_navigation.PersonalFragment"
         android:label="fragment_personal"
         tools:layout="@layout/fragment_personal" />
     <fragment
         android:id="@+id/chat"
-        android:name="com.example.softskills.ui.fragment.ChatFragment"
+        android:name="com.example.softskills.presentation.bottom_navigation.ChatFragment"
         android:label="fragment_chat"
         tools:layout="@layout/fragment_chat" />
     <fragment
         android:id="@+id/tracking"
-        android:name="com.example.softskills.ui.fragment.TrackingFragment"
+        android:name="com.example.softskills.presentation.bottom_navigation.TrackingFragment"
         android:label="fragment_tracking"
         tools:layout="@layout/fragment_tracking" />
     <fragment
         android:id="@+id/psychologist"
-        android:name="com.example.softskills.ui.fragment.PsychologistFragment"
+        android:name="com.example.softskills.presentation.bottom_navigation.PsychologistFragment"
         android:label="fragment_psychologist"
         tools:layout="@layout/fragment_psychologist" /><action android:id="@+id/action_global_lkFragment" app:destination="@id/lkFragment"/>
 </navigation>

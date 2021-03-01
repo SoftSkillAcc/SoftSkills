@@ -1,8 +1,8 @@
-package com.example.softskills.viewmodel
+package com.example.softskills.presentation.main
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.softskills.model.data.AppState
+import com.example.softskills.domain.model.data.AppState
 
 class SplashViewModel : ViewModel() {
     var state: MutableLiveData<AppState> = MutableLiveData()
