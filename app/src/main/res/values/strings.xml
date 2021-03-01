@@ -22,4 +22,5 @@
     <string name="psychologist">Психолог</string>
     <string name="tracking">Трекинг</string>
     <string name="registration_btn_title">Регистрация</string>
+    <string name="onboarding_skip_btn_title">Пропустить</string>
 </resources>
