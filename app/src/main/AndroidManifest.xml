@@ -12,10 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SoftSkills">
-        <activity android:name="com.example.softskills.presentation.auth.EntryActivity" />
-        <activity android:name="com.example.softskills.presentation.main.MainActivity" />
+        <activity android:name=".presentation.test.TestActivity"/>
+        <activity android:name=".presentation.auth.EntryActivity" />
+        <activity android:name=".presentation.main.MainActivity" />
         <activity
-            android:name="com.example.softskills.presentation.main.SplashActivity"
+            android:name=".presentation.main.SplashActivity"
             android:theme="@style/Theme.MaterialComponents.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
