@@ -1,17 +1,14 @@
-package com.example.softskills.ui.activity
+package com.example.softskills.presentation.auth
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.softskills.R
-import com.example.softskills.utils.Authenticator
-import kotlinx.android.synthetic.main.fragment_sign_in.*
-import kotlinx.android.synthetic.main.fragment_sign_up.*
 
 class EntryActivity : AppCompatActivity() {
 
-    private val authenticator by lazy { Authenticator(this, navController) }
+//    private val authenticator by lazy { Authenticator(this, navController) }
 
     private lateinit var navController: NavController
 

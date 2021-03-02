@@ -1,4 +1,4 @@
-package com.example.softskills.ui.adapter
+package com.example.softskills.presentation.main
 
 import android.view.LayoutInflater
 import android.view.View

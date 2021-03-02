@@ -1,4 +1,4 @@
-package com.example.softskills.ui.activity
+package com.example.softskills.presentation.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
