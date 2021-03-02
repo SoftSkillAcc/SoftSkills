@@ -24,7 +24,7 @@ class SignUpFragment : Fragment() {
 
         val createAccBtn = view.findViewById<MaterialButton>(R.id.create_acc_btn)
         createAccBtn.setOnClickListener {
-            val action = MainNavigationDirections.actionGlobalLkFragment("UUUUUU")
+            val action = MainNavigationDirections.actionGlobalLkFragment("Ivan")
             findNavController().navigate(action)
         }
     }
