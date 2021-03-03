@@ -13,17 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SoftSkills">
         <activity android:name=".presentation.test.TestActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".presentation.auth.EntryActivity" />
         <activity android:name=".presentation.bottom_navigation.MainActivity" />
         <activity
             android:name=".presentation.splash.SplashActivity"
             android:theme="@style/Theme.MaterialComponents.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
     </application>

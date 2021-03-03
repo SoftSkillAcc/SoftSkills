@@ -26,5 +26,10 @@ class MainFragment : Fragment() {
         registrationBtn.setOnClickListener(
             Navigation.createNavigateOnClickListener(R.id.action_main_to_entryFragment)
         )
+
+        val testBtn = view.findViewById<Button>(R.id.soft_skills_test_btn)
+        testBtn.setOnClickListener(
+            Navigation.createNavigateOnClickListener(R.id.action_main_to_testActivity)
+        )
     }
 }

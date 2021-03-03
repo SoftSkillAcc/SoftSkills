@@ -43,6 +43,9 @@
         <action
             android:id="@+id/action_main_to_entryFragment"
             app:destination="@id/entryFragment" />
+        <action
+            android:id="@+id/action_main_to_testActivity"
+            app:destination="@id/testActivity" />
     </fragment>
     <fragment
         android:id="@+id/personal"
@@ -64,4 +67,9 @@
         android:name="com.example.softskills.presentation.bottom_navigation.PsychologistFragment"
         android:label="fragment_psychologist"
         tools:layout="@layout/fragment_psychologist" /><action android:id="@+id/action_global_lkFragment" app:destination="@id/lkFragment"/>
+    <activity
+        android:id="@+id/testActivity"
+        android:name="com.example.softskills.presentation.test.TestActivity"
+        android:label="activity_test"
+        tools:layout="@layout/activity_test" />
 </navigation>
