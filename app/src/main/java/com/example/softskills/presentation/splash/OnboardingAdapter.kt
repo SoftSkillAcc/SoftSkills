@@ -1,4 +1,4 @@
-package com.example.softskills.presentation.main
+package com.example.softskills.presentation.splash
 
 import android.view.LayoutInflater
 import android.view.View

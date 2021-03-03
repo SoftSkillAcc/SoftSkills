@@ -1,4 +1,4 @@
-package com.example.softskills.presentation.main
+package com.example.softskills.presentation.splash
 
 import androidx.fragment.app.Fragment
 import com.example.softskills.R

@@ -1,4 +1,4 @@
-package com.example.softskills.presentation.main
+package com.example.softskills.presentation.splash
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
