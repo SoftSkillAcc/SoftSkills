@@ -1,4 +1,4 @@
-package com.example.softskills.presentation.main
+package com.example.softskills.presentation.bottom_navigation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
