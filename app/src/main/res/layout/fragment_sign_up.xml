@@ -6,7 +6,7 @@
     android:id="@+id/coordinator"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.auth.SignUpFragment">
+    tools:context=".presentation.auth.singup.SignUpFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"

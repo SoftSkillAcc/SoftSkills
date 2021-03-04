@@ -8,10 +8,7 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
 
-class Authenticator() {
-
-    private val auth: FirebaseAuth by lazy { Firebase.auth }
-    var userEmail: String? = null
+class Authenticator()
 
 //    private fun validateSignUpForm(
 //        nameLayout: TextInputLayout,
@@ -111,15 +108,15 @@ class Authenticator() {
 //            }
 //    }
 
-    fun signIn(email: String, password: String): String? {
-        auth.signInWithEmailAndPassword(email, password).addOnCompleteListener { task ->
-            userEmail = if (task.isSuccessful) {
-                auth.currentUser?.email
-            } else null
-        }
-        return userEmail
-    }
-}
+//    fun signIn(email: String, password: String): String? {
+//        auth.signInWithEmailAndPassword(email, password).addOnCompleteListener { task ->
+//            userEmail = if (task.isSuccessful) {
+//                auth.currentUser?.email
+//            } else null
+//        }
+//        return userEmail
+//    }
+//}
 ////        if (!validateSignInForm(emailLayout, passwordLayout)) return
 //
 //         return auth.signInWithEmailAndPassword(email, password)

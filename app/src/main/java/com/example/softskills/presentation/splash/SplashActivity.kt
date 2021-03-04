@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.viewpager2.widget.ViewPager2
 import com.example.softskills.R
 import com.example.softskills.domain.model.data.AppState
-import com.example.softskills.presentation.auth.EntryActivity
+import com.example.softskills.presentation.main.MainActivity
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 
@@ -62,7 +62,7 @@ class SplashActivity : AppCompatActivity() {
             is AppState.Success -> {
                 Toast.makeText(this, "AppState is Success", Toast.LENGTH_SHORT)
                     .show()
-                val intent = Intent(this, EntryActivity::class.java)
+                val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
             }
             is AppState.Error -> Toast.makeText(this, "AppState is Error", Toast.LENGTH_SHORT)

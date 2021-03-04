@@ -6,7 +6,7 @@
     app:startDestination="@id/main">
     <fragment
         android:id="@+id/signUpFragment"
-        android:name="com.example.softskills.presentation.auth.SignUpFragment"
+        android:name="com.example.softskills.presentation.auth.singup.SignUpFragment"
         android:label="SignUpFragment"
         tools:layout="@layout/fragment_sign_up"/>
     <fragment
@@ -32,12 +32,12 @@
     </fragment>
     <fragment
         android:id="@+id/signInFragment"
-        android:name="com.example.softskills.presentation.auth.SignInFragment"
+        android:name="com.example.softskills.presentation.auth.signin.SignInFragment"
         android:label="SignInFragment"
         tools:layout="@layout/fragment_sign_in"/>
     <fragment
         android:id="@+id/main"
-        android:name="com.example.softskills.presentation.bottom_navigation.MainFragment"
+        android:name="com.example.softskills.presentation.main.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -47,26 +47,7 @@
             android:id="@+id/action_main_to_testActivity"
             app:destination="@id/testActivity" />
     </fragment>
-    <fragment
-        android:id="@+id/personal"
-        android:name="com.example.softskills.presentation.bottom_navigation.PersonalFragment"
-        android:label="fragment_personal"
-        tools:layout="@layout/fragment_personal" />
-    <fragment
-        android:id="@+id/chat"
-        android:name="com.example.softskills.presentation.bottom_navigation.ChatFragment"
-        android:label="fragment_chat"
-        tools:layout="@layout/fragment_chat" />
-    <fragment
-        android:id="@+id/tracking"
-        android:name="com.example.softskills.presentation.bottom_navigation.TrackingFragment"
-        android:label="fragment_tracking"
-        tools:layout="@layout/fragment_tracking" />
-    <fragment
-        android:id="@+id/psychologist"
-        android:name="com.example.softskills.presentation.bottom_navigation.PsychologistFragment"
-        android:label="fragment_psychologist"
-        tools:layout="@layout/fragment_psychologist" /><action android:id="@+id/action_global_lkFragment" app:destination="@id/lkFragment"/>
+    <action android:id="@+id/action_global_lkFragment" app:destination="@id/lkFragment"/>
     <activity
         android:id="@+id/testActivity"
         android:name="com.example.softskills.presentation.test.TestActivity"

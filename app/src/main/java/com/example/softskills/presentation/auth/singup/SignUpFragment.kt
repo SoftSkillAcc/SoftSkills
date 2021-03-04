@@ -1,4 +1,4 @@
-package com.example.softskills.presentation.auth
+package com.example.softskills.presentation.auth.singup
 
 import android.os.Bundle
 import android.view.LayoutInflater
