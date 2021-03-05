@@ -1,4 +1,4 @@
-package com.example.softskills.presentation.bottom_navigation
+package com.example.softskills.presentation.main
 
 import android.os.Bundle
 import android.view.LayoutInflater

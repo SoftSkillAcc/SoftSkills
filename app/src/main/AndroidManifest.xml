@@ -15,8 +15,7 @@
         <activity android:name=".presentation.test.TestActivity">
 
         </activity>
-        <activity android:name=".presentation.auth.EntryActivity" />
-        <activity android:name=".presentation.bottom_navigation.MainActivity" />
+        <activity android:name=".presentation.main.MainActivity" />
         <activity
             android:name=".presentation.splash.SplashActivity"
             android:theme="@style/Theme.MaterialComponents.NoActionBar">
