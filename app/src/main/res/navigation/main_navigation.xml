@@ -44,13 +44,20 @@
             android:id="@+id/action_main_to_entryFragment"
             app:destination="@id/entryFragment" />
         <action
-            android:id="@+id/action_main_to_testActivity"
-            app:destination="@id/testActivity" />
+            android:id="@+id/action_main_to_test_main_selector_fragment"
+            app:destination="@id/testMainSelectorFragment" />
     </fragment>
     <action android:id="@+id/action_global_lkFragment" app:destination="@id/lkFragment"/>
-    <activity
-        android:id="@+id/testActivity"
-        android:name="com.example.softskills.presentation.test.TestActivity"
-        android:label="activity_test"
-        tools:layout="@layout/activity_test" />
+    <fragment
+        android:id="@+id/testMainSelectorFragment"
+        android:name="com.example.softskills.presentation.test.TestMainSelectorFragment"
+        android:label="TestMainSelectorFragment" >
+        <action
+            android:id="@+id/action_test_main_selector_fragment_to_test_professional_selector"
+            app:destination="@id/testProfessionalSelector" />
+    </fragment>
+    <fragment
+        android:id="@+id/testProfessionalSelector"
+        android:name="com.example.softskills.presentation.test.TestProfessionalSelector"
+        android:label="TestProfessionalSelector" />
 </navigation>
