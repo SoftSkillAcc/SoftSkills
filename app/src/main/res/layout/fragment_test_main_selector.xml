@@ -44,7 +44,7 @@
     <Button
         android:id="@+id/main_selector_work_skills_btn"
         android:layout_width="@dimen/main_selector_skills_btn_width"
-        android:layout_height="@dimen/main_selector_skils_btn_height"
+        android:layout_height="@dimen/main_selector_skills_btn_height"
         android:layout_marginStart="@dimen/main_selector_layout_margin"
         android:layout_marginEnd="@dimen/main_selector_layout_margin"
         android:text="@string/main_selector_work_skills_btn_title"
@@ -56,7 +56,7 @@
     <Button
         android:id="@+id/main_selector_life_skills_btn"
         android:layout_width="@dimen/main_selector_skills_btn_width"
-        android:layout_height="@dimen/main_selector_skils_btn_height"
+        android:layout_height="@dimen/main_selector_skills_btn_height"
         android:layout_marginEnd="@dimen/main_selector_layout_margin"
         android:layout_marginBottom="@dimen/main_selector_layout_margin"
         android:text="@string/main_selector_life_skills_btn_title"

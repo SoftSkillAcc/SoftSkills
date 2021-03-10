@@ -4,9 +4,9 @@
     <dimen name="main_selector_layout_margin">16dp</dimen>
     <dimen name="title_size">20sp</dimen>
     <dimen name="main_selector_skills_btn_width">0dp</dimen>
-    <dimen name="main_selector_skils_btn_height">180dp</dimen>
-    <dimen name="professional_selector_margin">16dp</dimen>
-    <dimen name="professional_selector_tv_header_size">20sp</dimen>
-    <dimen name="professional_selector_rv_height">0dp</dimen>
+    <dimen name="main_selector_skills_btn_height">180dp</dimen>
+    <dimen name="skills_selector_margin">16dp</dimen>
+    <dimen name="skills_selector_tv_header_size">20sp</dimen>
+    <dimen name="skills_selector_rv_height">0dp</dimen>
     <dimen name="description_fragment_margin_value">40dp</dimen>
 </resources>

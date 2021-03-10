@@ -7,7 +7,6 @@
     <string name="menu_item_psychologist">Психолог</string>
     <string name="career_test_btn_title">Тестирование на профориентацию</string>
     <string name="soft_skills_btn_title">Тестирование на Soft-skills</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="join_y_the_best">Присоединиться к YTheBest</string>
     <string name="enter">Войти</string>
@@ -28,8 +27,8 @@
     <string name="main_selector_tv_2_title">Предложение пройти тест</string>
     <string name="main_selector_tv_1_title">Мы поможем тебе стать лучшей версией себя</string>
     <string name="main_selector_congratulations_tv_title">Поздравляем с регистрацией!</string>
-    <string name="profession_selector_tv_header_1_title">Ты решил прокачать свои soft skills в профессии</string>
-    <string name="professional_selector_tv_header_2_title">Выбери свою профессию</string>
+    <string name="skills_selector_tv_header_1_title">Ты решил прокачать свои soft skills</string>
+    <string name="skills_selector_tv_header_2_title">Выбирай</string>
     <string name="life_skills_selector_tv_header_1_title">Ты решил прокачать свои life skills</string>
     <string name="life_skills_selector_tv_header_2_title">Выбери навык</string>
     <string name="soft_skills_description_header1">Ты решил прокачать свой Soft Skills</string>
