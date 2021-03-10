@@ -28,6 +28,12 @@
     <string name="main_selector_tv_2_title">Предложение пройти тест</string>
     <string name="main_selector_tv_1_title">Мы поможем тебе стать лучшей версией себя</string>
     <string name="main_selector_congratulations_tv_title">Поздравляем с регистрацией!</string>
-    <string name="profession_selector_tv_header_1_title">Ты решил прокачать свои софт скиллы в профессии</string>
+    <string name="profession_selector_tv_header_1_title">Ты решил прокачать свои soft skills в профессии</string>
     <string name="professional_selector_tv_header_2_title">Выбери свою профессию</string>
+    <string name="life_skills_selector_tv_header_1_title">Ты решил прокачать свои life skills</string>
+    <string name="life_skills_selector_tv_header_2_title">Выбери навык</string>
+    <string name="soft_skills_description_header1">Ты решил прокачать свой Soft Skills</string>
+    <string name="fragment_description_header2">Вид теста</string>
+    <string name="description_start_btn_title">Начать тест</string>
+    <string name="fragment_description_header3_title">Описание теста</string>
 </resources>

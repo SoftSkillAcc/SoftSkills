@@ -51,13 +51,36 @@
     <fragment
         android:id="@+id/testMainSelectorFragment"
         android:name="com.example.softskills.presentation.test.TestMainSelectorFragment"
-        android:label="TestMainSelectorFragment" >
+        android:label="TestMainSelectorFragment"
+        tools:layout="@layout/fragment_test_main_selector">
         <action
             android:id="@+id/action_test_main_selector_fragment_to_test_professional_selector"
             app:destination="@id/testProfessionalSelector" />
+        <action
+            android:id="@+id/action_test_main_selector_fragment_to_test_life_skills_selector"
+            app:destination="@id/testLifeSkillsSelector" />
     </fragment>
     <fragment
         android:id="@+id/testProfessionalSelector"
         android:name="com.example.softskills.presentation.test.TestProfessionalSelector"
-        android:label="TestProfessionalSelector" />
+        android:label="TestProfessionalSelector"
+        tools:layout="@layout/fragment_test_profession_selector">
+        <action
+            android:id="@+id/action_test_professionalSelector_to_test_description_fragment"
+            app:destination="@id/testDescriptionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testLifeSkillsSelector"
+        android:name="com.example.softskills.presentation.test.TestLifeSkillsSelector"
+        android:label="TestLifeSkillsSelector"
+        tools:layout="@layout/fragment_test_life_skills_selector">
+        <action
+            android:id="@+id/action_test_life_skills_selector_to_test_description_fragment"
+            app:destination="@id/testDescriptionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testDescriptionFragment"
+        android:name="com.example.softskills.presentation.test.TestDescriptionFragment"
+        android:label="TestDescriptionFragment"
+        tools:layout="@layout/fragment_test_description"/>
 </navigation>

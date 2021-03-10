@@ -16,5 +16,10 @@ class TestMainSelectorFragment : Fragment(R.layout.fragment_test_main_selector) 
         btnIsWorkSkills.setOnClickListener(
             Navigation.createNavigateOnClickListener(R.id.action_test_main_selector_fragment_to_test_professional_selector)
         )
+
+        val btnIsLifeSkills = view.findViewById<Button>(R.id.main_selector_life_skills_btn)
+        btnIsLifeSkills.setOnClickListener(
+            Navigation.createNavigateOnClickListener(R.id.action_test_main_selector_fragment_to_test_life_skills_selector)
+        )
     }
 }

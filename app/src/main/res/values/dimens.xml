@@ -8,4 +8,5 @@
     <dimen name="professional_selector_margin">16dp</dimen>
     <dimen name="professional_selector_tv_header_size">20sp</dimen>
     <dimen name="professional_selector_rv_height">0dp</dimen>
+    <dimen name="description_fragment_margin_value">40dp</dimen>
 </resources>
