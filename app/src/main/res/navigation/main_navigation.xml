@@ -44,13 +44,31 @@
             android:id="@+id/action_main_to_entryFragment"
             app:destination="@id/entryFragment" />
         <action
-            android:id="@+id/action_main_to_testActivity"
-            app:destination="@id/testActivity" />
+            android:id="@+id/action_main_to_test_main_selector_fragment"
+            app:destination="@id/test_main_selector_fragment" />
     </fragment>
     <action android:id="@+id/action_global_lkFragment" app:destination="@id/lkFragment"/>
-    <activity
-        android:id="@+id/testActivity"
-        android:name="com.example.softskills.presentation.test.TestActivity"
-        android:label="activity_test"
-        tools:layout="@layout/activity_test" />
+    <fragment
+        android:id="@+id/test_main_selector_fragment"
+        android:name="com.example.softskills.presentation.test.TestMainSelectorFragment"
+        android:label="TestMainSelectorFragment"
+        tools:layout="@layout/fragment_test_main_selector">
+        <action
+            android:id="@+id/action_test_main_selector_fragment_to_test_skills_selector"
+            app:destination="@id/test_skills_selector" />
+    </fragment>
+    <fragment
+        android:id="@+id/test_skills_selector"
+        android:name="com.example.softskills.presentation.test.TestSkillslSelector"
+        android:label="TestProfessionalSelector"
+        tools:layout="@layout/fragment_test_skills_selector">
+        <action
+            android:id="@+id/action_test_skills_selector_to_test_description_fragment"
+            app:destination="@id/test_description_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/test_description_fragment"
+        android:name="com.example.softskills.presentation.test.TestDescriptionFragment"
+        android:label="TestDescriptionFragment"
+        tools:layout="@layout/fragment_test_description"/>
 </navigation>

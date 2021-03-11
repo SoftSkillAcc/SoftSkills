@@ -1,6 +1,6 @@
 package com.example.softskills.data
 
-object ProfessionList {
+object DataList {
     val professionList = listOf(
         Profession("Дизайнер"),
         Profession("Веб \nразработчик"),
@@ -10,5 +10,12 @@ object ProfessionList {
         Profession("Игровой \nаналитик"),
         Profession("Android \nразработчик"),
         Profession("iOS \nразработчик")
+    )
+
+    val skillsList = listOf(
+        LifeSkills("Управление"),
+        LifeSkills("Дисциплина"),
+        LifeSkills("Выживание"),
+        LifeSkills("Отдых")
     )
 }
